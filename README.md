@@ -1,109 +1,137 @@
-# 🏠 Urban Nest – PG Finder for Chhattisgarh
+<div align="center">
 
-> **A modern full-stack PG & Hostel Finder platform built to simplify accommodation discovery across Chhattisgarh.**
+# 🏠 Urban Nest
 
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js)
-![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css)
-![License](https://img.shields.io/badge/License-MIT-green)
+### Find Your Perfect PG in Chhattisgarh
 
-Urban Nest is a modern full-stack PG & Hostel Finder platform that helps students and working professionals discover verified accommodations across Chhattisgarh with advanced search, secure authentication, multilingual support, and dedicated dashboards for tenants and property owners.
+<p>
+A modern Full-Stack PG & Hostel Finder platform built with React, TypeScript, Node.js & Express.
+</p>
+
+<p>
+
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+![Tailwind](https://img.shields.io/badge/Tailwind-38BDF8?style=for-the-badge&logo=tailwindcss)
+![MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</p>
+
+---
+
+### 🌟 A complete PG & Hostel Finder platform for students and professionals across Chhattisgarh.
+
+⭐ If you like this project, don't forget to Star this repository!
+
+</div>
+
+---
+
+# 📸 Preview
+
+## 🏠 Home Page
+
+<p align="center">
+<img src="screenshots/home.png" width="900">
+</p>
+
+---
+
+## 🔐 Login
+
+<p align="center">
+<img src="screenshots/login.png" width="420">
+</p>
+
+---
+
+## 📝 Register
+
+<p align="center">
+<img src="screenshots/register.png" width="420">
+</p>
+
+---
+
+## 🏢 PG Listings
+
+<p align="center">
+<img src="screenshots/listings.png" width="900">
+</p>
+
+---
+
+## 📞 Contact
+
+<p align="center">
+<img src="screenshots/contact.png" width="900">
+</p>
 
 ---
 
 # ✨ Features
 
-- 🔍 Smart PG & Hostel Search
-- 🏠 Browse Verified Listings
-- 👨‍🎓 Tenant Dashboard
-- 👨‍💼 PG Owner Dashboard
-- 📝 List Your PG
-- 📷 Multiple Image Upload
-- 💰 Rent Range Filters
-- ⚧ Gender Based Filtering
-- 🌐 Multi-language Support
-- 🔐 Secure Authentication
-- 📱 Fully Responsive Design
-- 📞 Contact & Complaint System
-- 🎨 Modern UI with Animations
+✅ Beautiful Modern UI
+
+✅ Responsive Design
+
+✅ Search PGs by City
+
+✅ Search by PG Name
+
+✅ Rent Filter
+
+✅ Gender Filter
+
+✅ Hostel / PG Filter
+
+✅ Sorting Options
+
+✅ Tenant Dashboard
+
+✅ Owner Dashboard
+
+✅ Add New PG
+
+✅ Complaint Management
+
+✅ Authentication
+
+✅ Multi Language Support
+
+✅ Image Upload
+
+✅ Animated Components
 
 ---
 
 # 🛠 Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| Frontend | React.js + Vite + TypeScript |
-| Styling | Tailwind CSS + Framer Motion |
-| Backend | Node.js + Express.js |
-| Database | PostgreSQL / MySQL |
-| Authentication | Custom HMAC Token |
-| API | OpenAPI 3.1 |
-| Internationalization | React Context |
-
----
-
-# 🎨 Color Palette
-
-| Name | Hex |
-|------|------|
-| Magma Orange | `#E84B1A` |
-| Sunrise Orange | `#F5A623` |
-| Oak Wood Brown | `#5C3D2E` |
-| Cream Background | `#FDF6EC` |
-
----
-
-# 📸 Screenshots
-
-> Add your screenshots inside a **screenshots/** folder.
-
-## Home
-
-![Home](screenshots/home.png)
-
-## PG Listings
-
-![Listings](screenshots/listings.png)
-
-## Login
-
-![Login](screenshots/login.png)
-
-## Register
-
-![Register](screenshots/register.png)
-
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-## Contact
-
-![Contact](screenshots/contact.png)
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | React.js, TypeScript, Vite |
+| Styling | Tailwind CSS, Framer Motion |
+| Backend | Node.js, Express.js |
+| Database | PostgreSQL, MySQL Schema |
+| Authentication | Custom Token Authentication |
+| API | REST API |
 
 ---
 
 # 📂 Project Structure
 
-```
-urban-nest/
+```text
+Urban-Nest/
+
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
 │
 ├── backend/
 │   ├── src/
-│   ├── routes/
-│   ├── middlewares/
-│   ├── controllers/
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── contexts/
 │   └── package.json
 │
 ├── mysql/
@@ -111,6 +139,12 @@ urban-nest/
 │   └── seed.sql
 │
 ├── screenshots/
+│   ├── home.png
+│   ├── login.png
+│   ├── register.png
+│   ├── listings.png
+│   └── contact.png
+│
 ├── README.md
 └── LICENSE
 ```
@@ -119,70 +153,35 @@ urban-nest/
 
 # 🚀 Installation
 
-## Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/enggSaiyam/Urban-Nest---PG-Finder-Chhattisgarh.git
+```
 
+Go inside project
+
+```bash
 cd Urban-Nest---PG-Finder-Chhattisgarh
 ```
 
-## Backend
+Install dependencies
 
 ```bash
-cd backend
 npm install
-npm run dev
 ```
 
-## Frontend
+Run project
 
 ```bash
-cd frontend
-npm install
 npm run dev
 ```
-
-Visit:
-
-```
-http://localhost:5173
-```
-
----
-
-# 🔑 Demo Accounts
-
-| Role | Email | Password |
-|------|-------|----------|
-| Tenant | tenant@demo.com | password123 |
-| Owner | owner@demo.com | password123 |
-
----
-
-# 📡 API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | /api/auth/register | Register User |
-| POST | /api/auth/login | Login |
-| GET | /api/auth/me | Current User |
-| GET | /api/cities | All Cities |
-| GET | /api/pgs | Get Listings |
-| POST | /api/pgs | Add PG |
-| GET | /api/pgs/:id | PG Details |
-| PUT | /api/pgs/:id | Update PG |
-| DELETE | /api/pgs/:id | Delete PG |
-| GET | /api/dashboard/tenant | Tenant Dashboard |
-| GET | /api/dashboard/owner | Owner Dashboard |
-| GET | /api/complaints | Complaints |
-| POST | /api/complaints | Submit Complaint |
 
 ---
 
 # 🌍 Supported Languages
 
-- 🇬🇧 English
+- 🇮🇳 English
 - 🇮🇳 हिन्दी
 - 🇧🇩 বাংলা
 - 🇮🇳 தமிழ்
@@ -191,36 +190,61 @@ http://localhost:5173
 
 ---
 
-# 🚀 Future Improvements
+# 🎨 UI Highlights
 
-- 🗺 Google Maps Integration
-- 💳 Online Booking & Payments
-- 🤖 AI Based PG Recommendation
-- ⭐ Ratings & Reviews
-- 💬 Live Chat
-- 📍 Location Based Search
-- ❤️ Wishlist Feature
+- Soft UI Design
+- Glassmorphism Cards
+- Floating Animated Shapes
+- Smooth Animations
+- Mobile Responsive
+- Premium Color Palette
+- Minimal Dashboard
+- Modern Forms
+- Beautiful Cards
 
 ---
 
-# 👨‍💻 Developer
+# 📊 Project Stats
+
+| Feature | Count |
+|---------|-------|
+| Cities | 40+ |
+| PG Listings | 500+ |
+| Happy Tenants | 10K+ |
+| Languages | 6 |
+| Dashboards | 2 |
+| User Roles | 2 |
+
+---
+
+# 📬 Contact
+
+### 👨‍💻 Developer
 
 **Saiyam Chopda**
 
-📧 Email: enggsaiyam@gmail.com
+📧 enggsaiyam@gmail.com
 
-📱 Phone: +91 9755376105
+📱 +91 9755376105
 
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
+📍 Chhattisgarh, India
 
 ---
 
-# ⭐ Support
+<div align="center">
 
-If you like this project, consider giving it a ⭐ on GitHub.
+## ⭐ Support
 
-It motivates future development and improvements.
+If you found this project helpful,
+
+### ⭐ Star this repository
+
+### 🍴 Fork this repository
+
+### ❤️ Share with others
+
+---
+
+Made with ❤️ by **Saiyam Chopda**
+
+</div>
