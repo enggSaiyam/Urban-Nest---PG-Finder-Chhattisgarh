@@ -1,0 +1,48 @@
+export interface CityData {
+  id: number;
+  name: string;
+  district: string;
+}
+
+export const CHHATTISGARH_CITIES: CityData[] = [
+  { id: 1, name: "Raipur", district: "Raipur" },
+  { id: 2, name: "Bilaspur", district: "Bilaspur" },
+  { id: 3, name: "Durg", district: "Durg" },
+  { id: 4, name: "Bhilai", district: "Durg" },
+  { id: 5, name: "Korba", district: "Korba" },
+  { id: 6, name: "Rajnandgaon", district: "Rajnandgaon" },
+  { id: 7, name: "Raigarh", district: "Raigarh" },
+  { id: 8, name: "Jagdalpur", district: "Bastar" },
+  { id: 9, name: "Ambikapur", district: "Surguja" },
+  { id: 10, name: "Dhamtari", district: "Dhamtari" },
+  { id: 11, name: "Mahasamund", district: "Mahasamund" },
+  { id: 12, name: "Kanker", district: "Kanker" },
+  { id: 13, name: "Jashpur", district: "Jashpur" },
+  { id: 14, name: "Kondagaon", district: "Kondagaon" },
+  { id: 15, name: "Narayanpur", district: "Narayanpur" },
+  { id: 16, name: "Bijapur", district: "Bijapur" },
+  { id: 17, name: "Sukma", district: "Sukma" },
+  { id: 18, name: "Dantewada", district: "Dantewada" },
+  { id: 19, name: "Gariaband", district: "Gariaband" },
+  { id: 20, name: "Baloda Bazar", district: "Baloda Bazar" },
+  { id: 21, name: "Mungeli", district: "Mungeli" },
+  { id: 22, name: "Balrampur", district: "Balrampur" },
+  { id: 23, name: "Bemetara", district: "Bemetara" },
+  { id: 24, name: "Surajpur", district: "Surajpur" },
+  { id: 25, name: "Kawardha", district: "Kabirdham" },
+  { id: 26, name: "Balod", district: "Balod" },
+  { id: 27, name: "Gaurela", district: "Gaurela-Pendra-Marwahi" },
+  { id: 28, name: "Pendra", district: "Gaurela-Pendra-Marwahi" },
+  { id: 29, name: "Manendragarh", district: "Manendragarh-Chirmiri-Bharatpur" },
+  { id: 30, name: "Sakti", district: "Sakti" },
+  { id: 31, name: "Khairagarh", district: "Khairagarh-Chhuikhadan-Gandai" },
+  { id: 32, name: "Champa", district: "Janjgir-Champa" },
+  { id: 33, name: "Janjgir", district: "Janjgir-Champa" },
+  { id: 34, name: "Sarangarh", district: "Sarangarh-Bilaigarh" },
+  { id: 35, name: "Dongargarh", district: "Rajnandgaon" },
+  { id: 36, name: "Takhatpur", district: "Bilaspur" },
+  { id: 37, name: "Pathalgaon", district: "Jashpur" },
+  { id: 38, name: "Sarguja", district: "Surguja" },
+  { id: 39, name: "Korea", district: "Korea" },
+  { id: 40, name: "Baikunthpur", district: "Korea" },
+];
